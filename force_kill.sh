@@ -10,10 +10,6 @@ else
   PROCESSNAME="$@"  	
 fi
 # actual shell logic
-if kill $(ps aux | grep $PROCESSNAME | grep -v grep | awk '{ print $2 }')
-then 
-  echo "successfully kill $PROCESSNAME"
-else 
-  kill -9 $(ps aux | grep $PROCESSNAME | grep -v grep | awk '{ print $2 }')
-fi
+kill -9 $(ps aux | grep $PROCESSNAME | grep -v grep | awk '{ print $2 }')
+echo "successfully kill $PROCESSNAME with SIGTERM"
   
