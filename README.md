@@ -1,4 +1,6 @@
-# bash_playground
-simple bash script to play with linux 
+# **bash_playground**
+simple _bash scripts_ to play with bash shell![linux shell][shell] 
 
-# use admenu script as a linux admin tool
+[shell]: https://icons.iconarchive.com/icons/froyoshark/enkel/512/iTerm-icon.png
+
+#### use **_admenu script_** as a linux admin tool
